@@ -20,4 +20,4 @@ class Solution:
                 dic[num] = idx
             else:
                 return [dic[n], idx]
-                test
+                
