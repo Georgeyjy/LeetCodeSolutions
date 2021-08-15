@@ -13,7 +13,7 @@ class Solution:
         if not res_str:
             res_str = x[::-1]
         res = int(res_str)
-        if -(2 ** 31) <= res <= 2 ** 31 -1:
+        if -(2 ** 31) <= res <= 2 ** 31 - 1:
             return res
         else:
             return 0

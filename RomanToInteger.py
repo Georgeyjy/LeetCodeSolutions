@@ -24,7 +24,7 @@ Created by Jianyu Yang on 2021/8/7 22:51
 #
 #     return res
 
-def romanToInt(self, s: str) -> int:
+def romanToInt(s: str) -> int:
     roman_int_map = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
     res = 0
     prev = 0
